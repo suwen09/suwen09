@@ -1,0 +1,9 @@
+首先是安装clash，在gxdeos论坛中下载clash1.7
+https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v1.7.7
+然后在银河麒麟中添加gxdeos基于debian12的软件源
+安装上星火应用商店，在星火应用商店中将clash更新至2.42版本
+在官网下载vscode 
+设置git代理
+git config --global http.proxy 127.0.0.1:7897
+git config --global https.proxy 127.0.0.1:7897
+再次clon自己的仓库即可
